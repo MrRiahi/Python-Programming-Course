@@ -11,10 +11,6 @@ print(name.find('Riahi'))
 print('Riahi'[2], '\n')
 
 
-SortedName = sorted(name)
-print('Sorted name is: ', SortedName, '\n')
-
-
 message = 'My name Is MohamMadrEza'
 print(message)
 print(message.lower())
@@ -25,6 +21,11 @@ print(message.replace('MohamMadrEza','alireza'), '\n')
 
 name = 'MohammadReza'
 NameList = list(name)
-NameTuple = tuple(name)
 print(NameList)
-print(NameTuple, '\n')
+
+NameTuple = tuple(name)
+print(NameTuple)
+
+NameSplit = name.split(sep = 'a', maxsplit = 2)
+print(NameSplit)
+

@@ -12,16 +12,4 @@ else:
 
 
 
-a = 'animal'
-b = 2
-c = 54
-
-if a == 'animl' and b == 4 or c == 54:
-    print('True')
-elif b is 2:
-    print('b is',b)
-else:
-    print('False')
-
-
-input('')
+    
